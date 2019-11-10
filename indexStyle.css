@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url(font/BerlinSansFBRegular/BerlinSansFBRegular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +14,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     background: #f5f5f5;
 }
 
@@ -23,7 +28,6 @@ p {
 }
 
 header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     text-align: center;
     padding: 10px 0 5px 0;
@@ -39,7 +43,6 @@ header {
 video {
     /* Setting width & height to auto prevents the browser from stretching or squishing the video */
     height: 20%;
-    display: block;
   
     /* Center the video */
     position: absolute;
@@ -50,12 +53,10 @@ video {
     z-index: -1;
 }
 
-h1 {
+h1, h2 {
     font-family: "Berlin Sans FB", Tahoma, Geneva, sans-serif;
-}
-
-h2 {
     padding: 3px;
+    
 }
 
 nav {
