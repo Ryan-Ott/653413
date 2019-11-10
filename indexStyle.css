@@ -90,6 +90,29 @@ img {
 
 #sportsTable {
     list-style-type: square;
+    margin: 20px;
+}
+
+#sportsTable p {
+    padding: 5px;
+}
+
+section.polaroid {
+    width: 80%;
+    background-color: #f5f5f5;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #444444, 0 6px 20px 0 #444444;
+    margin-bottom: 25px;
+}
+
+section.polaroid img {
+    width: 100%;
+}
+  
+section.polInfo {
+    text-align: center;
+    padding: 10px 20px;
 }
 
 fieldset {
@@ -115,10 +138,6 @@ form fieldset input {
     height: 2em;
     width: 30%;
     justify-content: center;
-}
-
-aside {
-    position: sticky;
 }
 
 aside ol li {
