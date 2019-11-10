@@ -81,6 +81,23 @@ a:hover {
     text-decoration: underline;
 }
 
+input:checked ~ #bannertext, input:checked{
+    display: none;
+    z-index: -2;
+}
+
+#bannertext{
+    background-color: #2699FB;
+}
+
+.banner {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
 .item {
     padding: 20px;
     margin: 6px;
