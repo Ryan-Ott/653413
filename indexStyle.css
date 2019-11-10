@@ -24,10 +24,34 @@ p {
 
 header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #444444;
     color: #ffffff;
     text-align: center;
     padding: 10px 0 5px 0;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+video {
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    height: 20%;
+    display: block;
+  
+    /* Center the video */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Berlin Sans FB", Tahoma, Geneva, sans-serif;
 }
 
 h2 {
