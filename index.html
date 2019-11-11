@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" version="5">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Info about Haarlem, Haarlem Center & Taekwondo">
@@ -36,12 +36,10 @@
         </nav>
     </header>
     <main>
-        <banner class = banner>
-            <flexContainer class="flex-images cookie-container">
-                <input type="checkbox" name="">
-                <bannertext id="bannertext">Click the box to agree to the use of cookies</bannertext>
-            </flexContainer>
-        </banner>
+        <section class = banner>
+            <input type="checkbox" name="cookiebox">
+            <p id="bannertext">Click the box to agree to the use of cookies</p>
+        </section>
         <section class="mainContent wrapper">
             <article class="container" id="maincontent">
                 <section class="item" id="haarlemIntroduction">
@@ -188,14 +186,14 @@
                             </section>
                           </section>
                         </li>
-                        <li><section class="polaroid" id="taekwondoClubs">
+                        <li><section class="polaroid">
                             <a href="http://taekwonmudo-hta.nl/haarlem-centrum/"><img src="img/taekwondo_kick.png" alt="Taekwondoin kicking a training bag"></a>
                             <section class="polInfo">
                               <p>Taekwondo: <a href="http://taekwonmudo-hta.nl/haarlem-centrum/">HTA Taekwondo Mudoin</a> - Taekwondo school with branches in numerous Dutch cities. Opened in 1990 by Kuen Sabumnim Y.K. Kim.</p>
                             </section>
                           </section>
                         </li>
-                        <li><section class="polaroid" id="taekwondoClubs">
+                        <li><section class="polaroid">
                             <a href="https://www.krassport.nl/alle-sporten?categorie=schaatsen"><img src="img/ice_skater_red.png" alt="Gawel Oficjalski ice skating"></a>
                             <section class="polInfo">
                               <p>Ice Skating: <a href="https://www.krassport.nl/alle-sporten?categorie=schaatsen">Kras Sport</a> - Krassport offers a plethora of lessons in many different sports, from ice skating and swimming to track and triathlons.</p>
@@ -213,11 +211,11 @@
                         <fieldset>
                             <legend>Contact Form</legend>
                             <label for="name">Your name:</label>
-                            <input type="text" name="name" placeholder="John Doe" required>
+                            <input id="name" type="text" name="name" placeholder="John Doe" required>
                             <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="johndoe@emailhost.com" size="35" required>
+                            <input id="email" type="email" name="email" placeholder="johndoe@emailhost.com" size="35" required>
                             <label for="message">Inquiry:</label>
-                            <textarea name="message" rows="6" cols="30" placeholder="Please state and explain your inquiry here:" required></textarea>
+                            <textarea id="message" name="message" rows="6" cols="30" placeholder="Please state and explain your inquiry here:" required></textarea>
                             <input id="submitbtn" type="submit" value="Submit">
                         </fieldset>
                     </form>
